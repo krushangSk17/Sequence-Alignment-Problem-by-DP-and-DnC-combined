@@ -1,4 +1,10 @@
 # Sequence-Alignment-Problem-by-DP-and-DnC-combined
+
+## University of Southern California
+## Krushang Satani
+### First semester Analysis of Algorithm subject.
+### Dynamic Programming and Divide and Conquer code for Sequence allignment. 
+
 CSCI 571 This is the assignment on sequence alignment using divide and conquer and dynamic programming.
 
 
