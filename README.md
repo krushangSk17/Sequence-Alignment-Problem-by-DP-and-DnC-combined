@@ -1,6 +1,6 @@
 # Sequence-Alignment-Problem-by-DP-and-DnC-combined
 CSCI 571 This is the assignment on sequence alignment using divide and conquer and dynamic programming. 
-1. basic DP version(non memory efficient)  
+1. Basic DP version(non memory efficient)  
 2. DnC approach with DP. (Memory Efficient)
 
 ## DataPoints
