@@ -2,8 +2,8 @@
 
 ## University of Southern California
 ## Krushang Satani
-### First semester Analysis of Algorithm subject.
-### Dynamic Programming and Divide and Conquer code for Sequence allignment. 
+### First semester: Analysis of Algorithm Course.
+### Final Project on Dynamic Programming and Divide and Conquer Solution for Sequence allignment problem. 
 
 CSCI 571 This is the assignment on sequence alignment using divide and conquer and dynamic programming.
 
