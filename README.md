@@ -1,2 +1,24 @@
 # Sequence-Alignment-Problem-by-DP-and-DnC-combined
-CSCI 571 This is the assignment on sequence alignment using divide and conquer and dynamic programming. 1. basic dp version(non memory efficient)  2. DnC approach with DP. (Memory Efficient)
+CSCI 571 This is the assignment on sequence alignment using divide and conquer and dynamic programming. 
+1. basic DP version(non memory efficient)  
+2. DnC approach with DP. (Memory Efficient)
+
+DataPoints
+
+| M+N | Time in MS (Basic)	| Time in MS (Efficient)	| Memory in KB (Basic) |	Memory in KB (Efficient) |
+|---|---|---|---|---|
+|16	|0.999689	|0.102519	|15724	|15824|
+|64	|0	|0.997066|	|15736| 15812|
+|128	|1.998186| 4.146575| 15884| 15808|
+|256	|8.063316|	16.112327|	16372|	15888|
+|384	|16.999244|	35.502195|	17208|	15864|
+|512	|32.057285|	64.319490|	18352|	15840|
+|768	|74.018716|	144.399404|	21696|	15888|
+|1024	|139.220714|	334.811925|	26460|	15792|
+|1280	|214.568376|	453.048229|	32260|	15876|
+|1536	|311.930656|	609.175682|	40012|	16004|
+|2048	|595.869541|	1094.847202|	58772|	15964|
+|2560	|967.764139|	1708.559989|	82692|	16160|
+|3072	|1268.923044|	3028.587818|	110952|	16048|
+|3584	|1711.432933|	3412.905216|	147868|	16216|
+|3968 |2143.638849|	4129.018068|	174180|	16128|
