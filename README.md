@@ -3,7 +3,7 @@ CSCI 571 This is the assignment on sequence alignment using divide and conquer a
 1. basic DP version(non memory efficient)  
 2. DnC approach with DP. (Memory Efficient)
 
-DataPoints
+## DataPoints
 
 | M+N | Time in MS (Basic)	| Time in MS (Efficient)	| Memory in KB (Basic) |	Memory in KB (Efficient) |
 |---|---|---|---|---|
@@ -23,7 +23,7 @@ DataPoints
 |3584	|1711.432933|	3412.905216|	147868|	16216|
 |3968 |2143.638849|	4129.018068|	174180|	16128|
 
-Insights
+## Insights
 
 From above table we can say that the time taken to solve the problem using dynamic programming (basic) is increasing in exponential way along with the increase in problem size. And the memory used is also increasing in exponential manner as the problem size is increased.
 
@@ -32,17 +32,16 @@ Whereas, the dynamic program along with divide and conquer (efficient) uses cons
 So, we can say that by making the basic algorithm efficient, we mean in the way it uses memory and not the time. Because basic algorithm will take a large space as the problem size increases and efficient version of it will keep the memory constant with the increase in problem size which makes the program memory efficient.
 
 
+### Graph1 – Memory vs Problem Size (M+N)
 
+ ![image](https://user-images.githubusercontent.com/99399266/213656191-62e06b26-bbe7-46bf-b0c4-1021800e1ccc.png)
 
-Graph1 – Memory vs Problem Size (M+N)
-
- 
 
 Nature of the Graph (Logarithmic/ Linear/ Polynomial/ Exponential)
 Basic: Exponential
 Efficient: Constant
 
-Explanation: 
+#### Explanation: 
 
 In above graph, the x-axis represents the Problem size (m + n) where m and n are the length of two strings. The y-axis represents memory used by the program to execute in KB. And the blue line represents the plot of basic algorithm and the orange line represents the plot for efficient algorithm.
 
@@ -51,15 +50,17 @@ So, from the graph plotted by the program, we can say that the memory used by th
 And the memory used by the efficient algorithm stays constant even with the increase in the problem size.
 
 So, from these data, we can conclude that the efficient algorithm will use less memory when the problem size increases which is an important factor to look at while designing an algorithm.
-Graph2 – Time vs Problem Size (M+N)
 
+### Graph2 – Time vs Problem Size (M+N)
+
+![image](https://user-images.githubusercontent.com/99399266/213656230-fc7eed11-5d3c-4fb6-b036-206831ce2d37.png)
  
 
 Nature of the Graph (Logarithmic/ Linear/ Polynomial/ Exponential)
 Basic: Exponential
 Efficient: Exponential
 
-Explanation: 
+#### Explanation: 
 
 In above graph, the x-axis represents the Problem size (m + n) where m and n are the length of two strings. The y-axis represents time taken by the program to execute in milliseconds. And the blue line represents the plot of basic algorithm and the orange line represents the plot for efficient algorithm.
 
