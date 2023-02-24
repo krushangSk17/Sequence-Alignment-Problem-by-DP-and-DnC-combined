@@ -81,22 +81,6 @@ But that difference is minor compared to the memory the efficient algorithm save
 So overall we can conclude that the efficient algorithm will save a good amount of memory when the problem size is large even if it takes little bit more time to execute than the basic algorithm.
 
 
-Memory Reduction in Efficient version for large and small datasets.
+Memory Reduction in Efficient version for large and small datasets is approximately 83.425%. Using weigted average.
+SUMPRODUCT(Percentage Reduction in Space * (M+N)) / SUM(M+N)
 
-|M+N	|Memory difference (%)|
-|---|---|
-|16 |	0.64|
-|64	|0.48|
-|128	|-0.47|
-|256	|-3.32|
-|384	|-8.00|
-|512	|-13.47|
-|768|	-26.78|
-|1024|	-40.32|
-|1280	|-50.32|
-|1536|	-60.04|
-|2048|	-72.72|
-|2560|	-95.94|
-|3072|	-85.46|
-|3584|	-9.20|
-|3968|	1.44|
