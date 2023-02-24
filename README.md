@@ -84,6 +84,7 @@ So overall we can conclude that the efficient algorithm will save a good amount 
 Memory Reduction in Efficient version for large and small datasets.
 
 |M+N	|Memory difference (%)|
+|---|---|
 |16 |	0.64|
 |64	|0.48|
 |128	|-0.47|
